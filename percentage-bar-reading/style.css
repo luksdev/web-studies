@@ -1,0 +1,69 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 500 1.6rem Poppins;
+  background-color: #130f0d;
+  color: #F0F0F5;
+}
+
+h1 {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#container-main {
+  width: 100%;
+}
+
+#container-main header, #container-main footer {
+  width: 100%;
+  height: 10rem;
+  border: 0.5rem solid #fd951f;
+  margin-bottom: 3rem;
+}
+
+#container-main footer {
+  height: 15rem;
+}
+
+#content-main {
+  flex-direction: row;
+  width: 100%;
+}
+
+#content-main article, #content-main aside {
+  padding: 2rem;
+}
+
+#content-main article {
+  width: 70%;
+  text-align: justify;
+}
+
+#content-main aside {
+  width: 30%;
+}
+
+#content-main aside .ads {
+  width: 100%;
+  height: 15rem;
+  border: 0.5rem solid #fd951f;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
