@@ -4,9 +4,9 @@ Document the results of simple projects done with the intention of practicing ht
 
 # Focus
 
-- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [X] [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [X] [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [X] [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## How to contribute
 
