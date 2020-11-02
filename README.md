@@ -1,6 +1,6 @@
 # Objective
 
-Document the results of simple projects done with the intention of practicing html, css and js
+Document the simple projects I developed in html, css, and js in order to practice css and js featues that I researched
 
 # Focus
 
