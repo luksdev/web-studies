@@ -1,10 +1,14 @@
 const start = () => {
-  navigator.geolocation ? getLocation() : console.log( 'A localização geográfica não é suportada por este navegador' )
+  navigator.geolocation ? 
+  getLocation() : 
+  console.log( 'A localização geográfica não é suportada por este navegador' )
 }
 
 const getLocation = () => {
   navigator.geolocation
-  .getCurrentPosition( renderMap , showError, { enableHighAccuracy: true, maximumAge: 1000, timeout: 60000 } )
+  .getCurrentPosition( renderMap , showError, { 
+    enableHighAccuracy: true, maximumAge: 1000, timeout: 60000 
+  } )
 }
 
 const createMap = ( latitude , longitude ) => {
@@ -20,6 +24,9 @@ const renderMap = position => {
   }
 
   createMap( UserPosition.Latitude, UserPosition.Longitude )
+
+  // console.log( `Latitude Atual: ${UserPosition.Latitude}` )
+  // console.log( `Longitude Atual: ${UserPosition.Longitude}` )
 }
 
 const showError = error => { 
