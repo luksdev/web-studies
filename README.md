@@ -17,4 +17,4 @@ Document the simple projects I developed in html, css, and js in order to practi
 3. Commit your changes: **`git commit -m 'feat: My new feature'`**;
 4. Push to your branch: **`git push origin my-feature`**.
 
-After the merge of your pull request is done, you can delete your branch.
+After the merge of your pull request is done, you can delete your branch. 

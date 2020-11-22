@@ -20,13 +20,13 @@ window.addEventListener( 'load' , () => {
     colorText: '#B5B5B5'
   }
 
-  const trasnformKey = key => {
+  const transformKey = key => {
     return `--${key.replace( /([A-Z])/g , '-$1' ).toLowerCase()}`
   }
 
   const changeColors = colors => {
     Object.keys( colors ).map( key => {
-      return html.style.setProperty( trasnformKey( key ) , colors[key] )
+      return html.style.setProperty( transformKey( key ) , colors[key] )
     } )
   }
 
